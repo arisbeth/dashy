@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Forms</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+   <header class="header black-bg">
+          <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <div class="sidebar-toggle-box">
+                    <div class="fa fa-bars tooltips">
+                    </div>
+                </div>
+<!--MENU DASHBOARD-->
+                <div class="top-menu">
+                    <a href="#" class="logo"><b>ADVENTURE TIME: DASHBOARD</b></a>
+                    <ul class="nav pull-right top-menu">
+                      <li><a class="logout" href="login.html">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </header>
+<!--despliegue barra lateral-->
+      <aside>
+        <div class="nav-collapse " style="overflow: hidden; outline: none;">
+          <div id="sidebar" class="col-xs-6 col-md-2 col-lg-2 mt ">
+<!--menu barra lateral-->
+              <ul class="sidebar-menu">
+                <div class="text-center">
+                  <img src="img/profile_avatar.png" class="img-circle" width="30%">
+                  <h5 class="centered">Bonnibel Bubblegum</h5>
+                </div>
+<!--elementos menu barra lateral--> 
+                  <li class="mt">
+                    <a href="dashboard.html">
+                        <i class="fa fa-dashboard"></i>
+                        <span>Dashboard</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="buttons.html" >
+                        <i class="fa fa-desktop"></i>
+                        <span>Buttons</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="progress.html" >
+                        <i class="fa fa-desktop"></i>
+                        <span>Progress Bars</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form_component.html" class="active">
+                      <i class="fa fa-cogs"></i>
+                      <span>Forms</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="basic_tables.html">
+                      <i class="fa fa-th"></i>
+                      <span>Data Tables</span>
+                    </a>    
+                  </li>
+                  <li>
+                    <a href="gallery.html">
+                      <i class="fa fa-tasks"></i>
+                      <span>Gallery</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="login.html">
+                      <i class="fa fa-book"></i>
+                      <span>Login Page</span>
+                    </a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </aside>
+<!--CONTENIDO: forms-->
+      <section id="main-content">
+        <section class="wrapper">
+          <div class="row">
+            <div class="col-lg-12 cd-md-12 col-sm-12">
+<!-- FORM COMPONENTS -->
+              <h3><i class="fa fa-angle-right"></i>Form Components</h3> 
+              <div class="showback">
+                  <h4><i class="fa fa-angle-right"></i> Form Elements</h4>
+                  <div class="mt">
+                    <form>
+                      <fieldset class="form-group">
+                        <div class="col-lg-2">
+                          <label class="control-label">Default</label>
+                        </div>
+                        <div class="col-lg-10">
+                          <input type="text" class="form-control">
+                        </div>
+                      </fieldset>
+                      <hr>
+                      <fieldset class="form-group">
+                        <div class="col-lg-2">
+                          <label class="control-label">Help text</label>
+                        </div>
+                        <div class="col-lg-10">
+                          <input type="text" class="form-control">
+                          <label class="control-label">A block of help text that breaks onto a new line and may extended beyond one line</label>
+                        </div>
+                      </fieldset>
+                      <hr>
+                      <fieldset class="form-group">
+                        <div class="col-lg-2">
+                          <label class="control-label">Rounder</label>
+                        </div>
+                        <div class="col-lg-10">
+                          <input type="text" class="form-control round-form">
+                        </div>
+                      </fieldset>
+                      <hr>
+                      <fieldset class="form-group">
+                        <div class="col-lg-2">
+                          <label class="control-label">Input focus</label>
+                        </div>
+                        <div class="col-lg-10">
+                          <input type="text" id="focusedInput" class="form-control" placeholder="This is focused">
+                        </div>
+                      </fieldset>
+                      <hr>
+                      <fieldset class="form-group">
+                        <div class="col-lg-2">
+                          <label class="control-label">Disabled input</label>
+                        </div>
+                        <div class="col-lg-10">
+                          <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+                        </div>
+                      </fieldset>
+                      <hr>
+                      <fieldset class="form-group">
+                        <div class="col-lg-2">
+                          <label class="control-label">Placeholder</label>
+                        </div>
+                        <div class="col-lg-10">
+                          <input class="form-control" type="text" placeholder="placeholder" >
+                        </div>
+                      </fieldset>
+                      <hr>
+                      <fieldset class="form-group">
+                        <div class="col-lg-2">
+                          <label class="control-label">Password</label>
+                        </div>
+                        <div class="col-lg-10">
+                          <input class="form-control" type="password">
+                        </div>
+                      </fieldset>
+                      <hr>
+                      <fieldset class="form-group">
+                        <div class="col-lg-2">
+                          <label class="control-label">Static control</label>
+                        </div>
+                        <div class="col-lg-2">
+                          <label class="control-label">email@example.com</label>
+                        </div>
+                      </fieldset>
+                      <hr>
+                    </form>
+                  </div>
+              </div>
+<!--___INLINE FORM____-->
+              <div class="showback">
+                  <h4><i class="fa fa-angle-right"></i>Inline Form</h4>
+                  <div class="mt">
+                    <form class="form-inline">
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Enter email">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                      </div>
+                      <button type="submit" class="btn">Sign in</button>
+                    </form>
+                  </div>
+              </div>
+<!--___Input Messages____-->              
+              <div class="showback">
+                  <h4><i class="fa fa-angle-right"></i>Input Mesagges</h4>
+                  <div class="mt">
+                    <form>
+                      <fieldset class="form-group has-success">
+                          <div class="col-lg-2">
+                            <label class="control-label" for="inputSuccess1">Input with success</label>
+                          </div>
+                          <div class="col-lg-10">
+                            <input type="text" class="form-control form-control-success">
+                          </div>
+                        </fieldset>
+                        <fieldset class="form-group has-warning">
+                          <div class="col-lg-2">
+                            <label class="control-label">Input with warning</label>
+                          </div>
+                          <div class="col-lg-10">
+                            <input type="text" class="form-control form-control-success">
+                          </div>
+                        </fieldset>
+                        <fieldset class="form-group has-error">
+                          <div class="col-lg-2">
+                            <label class="control-label">Input with error</label>
+                          </div>
+                          <div class="col-lg-10">
+                            <input type="text" class="form-control form-control-error">
+                          </div>
+                        </fieldset>
+                    </form>
+                  </div> 
+              </div>
+<!--___Checkboxes, Radios & Selects____--> 
+              <div class="showback">
+                  <h4><i class"fa fa-angle-right"></i>Checkboxes, Radios & Selects </h4>
+                  <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Option one is this an that-be sure to include why it´s great
+                      </label>
+                  </div>
+                  <div class="radio">
+                      <label>
+                        <input type="radio"> Option one is this an that-be sure to include why it´s great
+                      </label>
+                  </div>
+                  <div class="radio">
+                      <label>
+                        <input type="radio"> Option two can be something else and selecting it will deselected option one
+                      </label>
+                  </div>
+                  <hr>
+                  <div>
+                    <label class="checkbox-inline">
+                      <input type="checkbox"> 1
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox"> 2
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox"> 3
+                    </label>
+                  </div>
+                  <hr>
+                  <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                  <hr> 
+                  <select multiple class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+              </div>
+            </div> 
+          </div>  
+        </section>
+      </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
